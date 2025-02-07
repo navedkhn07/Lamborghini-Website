@@ -711,19 +711,18 @@ body {
   #left h1 {
     font-size: 5.5vw;
   }
-#first #btn i{
+  #first #btn i {
     display: none;
-  
-}
+  }
   #btn2,
   #btn3 {
     width: 5vw;
     height: 5vw;
   }
-  #page3 #btn2 #clippy i{
+  #page3 #btn2 #clippy i {
     margin-top: 1.5vw;
   }
-  #page4 #btn3 #clippy2 i{
+  #page4 #btn3 #clippy2 i {
     margin-top: 1.5vw;
   }
   #page4 h3 {
@@ -782,12 +781,12 @@ body {
     width: 100%;
     justify-content: center;
   }
-#add{
+  #add {
     display: none;
-}
-#first h1{
+  }
+  #first h1 {
     display: none;
-}
+  }
   #video h1:nth-child(1) {
     font-size: 5vw;
   }
@@ -799,13 +798,13 @@ body {
   #btn5 {
     display: none;
   }
-  #btn{
-    display: none !important
+  #btn {
+    display: none !important;
   }
-  #page3 #btn2 #clippy i{
+  #page3 #btn2 #clippy i {
     margin-top: 1.5vw;
   }
-  #page4 #btn3 #clippy2 i{
+  #page4 #btn3 #clippy2 i {
     margin-top: 1.5vw;
   }
   #car {
@@ -847,23 +846,29 @@ body {
     margin-left: 20%;
   }
 
-  #ftr {
-    flex-direction: column;
-    gap: 3vh;
+  #footer {
+    height: auto;
+    padding: 30px;
   }
 
   #company h1,
   #ftr1 h1 {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
+  #x {
+    display: none;
+  }
+  #x i {
+    font-size: 1.5vw;
+  }
   #middle p,
   #middle pre {
-    font-size: 2.5vw;
+    font-size: 1.2vw;
   }
 
   #last pre {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
@@ -885,7 +890,7 @@ body {
   }
 
   #btn5 {
-   display: none;
+    display: none;
   }
 
   #page2 h2 {
@@ -900,17 +905,15 @@ body {
   #page5 h2 {
     font-size: 12vw;
   }
-
   #pg5 > button {
     margin-left: 10%;
     padding: 10px 30px;
   }
-
+ 
   #company h1,
   #ftr1 h1 {
     font-size: 4vw;
   }
-
   #middle p,
   #middle pre {
     font-size: 3.5vw;
