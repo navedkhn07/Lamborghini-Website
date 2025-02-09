@@ -874,19 +874,22 @@ body {
 
 @media (max-width: 480px) {
   #nav h1 {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   #part1 img {
     width: 12vw;
   }
-
+  #video video{
+    margin-top: 20vw;
+  }
   #video h1:nth-child(1) {
     font-size: 6vw;
   }
 
   #video h1:nth-child(2) {
     font-size: 10vw;
+    margin-top: -3.5vw;
   }
 
   #btn5 {
@@ -901,25 +904,40 @@ body {
   #page4 h1 {
     font-size: 9vw;
   }
-
+#page5{
+  background-color: red;
+}
   #page5 h2 {
-    font-size: 12vw;
+    font-size: 10vw;
   }
   #pg5 > button {
     margin-left: 10%;
     padding: 10px 30px;
   }
- 
+  #footer {
+    height: auto;
+    padding: 30px;
+  }
+
   #company h1,
   #ftr1 h1 {
-    font-size: 4vw;
+    font-size: 2vw;
+  }
+
+  #x {
+    display: none;
+  }
+  #x i {
+    font-size: 1.5vw;
   }
   #middle p,
   #middle pre {
-    font-size: 3.5vw;
+    font-size: 1.2vw;
   }
-
+#last{
+  width: 100vw;
+}
   #last pre {
-    font-size: 3vw;
+    font-size: 1.1vw;
   }
 }
